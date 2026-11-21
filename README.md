@@ -29,6 +29,8 @@ Start here:
 
 - **[Agent integration guide](docs/agents/README.md)** — hold kUSD, pay a service through k402, verify a
   settlement and the covenant state against a TN10 node, sell a service of your own.
+- **[Mainnet roadmap](docs/MAINNET-ROADMAP.md)** — everything left before mainnet (audit, operators, keys,
+  sizing, settlement) and the phased plan to close it.
 - **[Whitepaper](docs/pitch/WHITEPAPER.md)** — thesis, architecture, security model, live evidence,
   economics, the agent economy, roadmap.
 - **[One-pager](docs/pitch/ONE-PAGER.md)** — the short version + how to support the work.
@@ -43,10 +45,12 @@ Start here:
 
 This public repository is the **2026-11-14 snapshot (oracle Stage 1 family)** of the kUSD contracts, harness
 and evidence. The live TN10 deployment shown at [www.kaspa-402.org/kusd](https://www.kaspa-402.org/kusd)
-has since added a 2 %/year stability fee on vault debt, a 150 % liquidation line (borrowing stays at 175 %),
-a 5 KAS minimum collateral, a rising PSM swap-in spread, 1.5 KAS holder boxes and the `kusd_pay` wallet
-binary that the k402 market uses; the live page and its deploy records are the reference for those, and
-they land here with the next snapshot. Nothing in this repository is a promise about the live figures.
+has since added a 2 %/year stability fee on vault debt, borrow and liquidation lines of 200 % and 170 %, a
+5 KAS minimum collateral, a rising PSM swap-in spread, a miner-median price bound (oracle Stage 2), a
+vault-debt ceiling, a hardened PSM (share cap, pro-rata redemption, top-up), a vault factory, 1.5 KAS holder
+boxes and the `kusd_pay` wallet binary that the k402 market uses; the live page, its deploy records and the
+[mainnet roadmap](docs/MAINNET-ROADMAP.md) are the reference for those, and they land here with the next
+snapshot. Nothing in this repository is a promise about the live figures.
 
 ## Why this design serves agents
 
@@ -106,4 +110,5 @@ its own ISC license.
 
 This repository exists so claims can be verified, not so the system can be used. Nothing here is audited;
 TN10 covenants and keys are worthless by design; do not deploy this with real value. Today all five oracle
-operator keys are held by the deployer; independent operators are a pre-mainnet gate.
+operator keys are held by the deployer; independent operators are a pre-mainnet gate. The full list of
+pre-mainnet gates is in the [mainnet roadmap](docs/MAINNET-ROADMAP.md).
