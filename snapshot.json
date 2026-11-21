@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T19:47:49Z",
+  "generatedAt": "2026-11-21T20:09:23Z",
   "network": "testnet-10",
   "stage": "Stage 2",
   "repo": "https://github.com/Kali123411/kUSD",
@@ -7,68 +7,68 @@
   "covenants": {
     "oracle": {
       "covid": "0dac704fe95fa389a429eec46e70a04be2a2685cc4c301c8af8569abb221d242",
-      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
-      "index": 3,
+      "txid": "d6191704b00f4e59dbc64393fac949cd5c432385a1c4cfb32cff760af0767824",
+      "index": 0,
       "amount": 100000000,
       "state": {
-        "price": 257,
-        "mint": 257,
-        "liq": 257,
-        "epoch": 859,
-        "last": 629545248,
+        "price": 256,
+        "mint": 256,
+        "liq": 256,
+        "epoch": 864,
+        "last": 629564386,
         "status": 0,
         "rate": 200,
         "next_rate": 200,
-        "index": 1000172862,
-        "rem": 61628559,
+        "index": 1000174076,
+        "rem": 40916062,
         "miner_id": "deb0b4b9268f76c74d9dbe45bc4d0a2c335799f566ea02d7f75d9a61b8957d35",
         "bounded": 0
       },
-      "address": "kaspatest:pr0xchryjwep82njg0x5zkad7u7m9zvjxky37tv3902qjg8uyg93qxmc5m2dm"
+      "address": "kaspatest:pzejwqmvchzpdsmktldt6qp848g4sx4x9qk4rz82z4j7s75t4s8ugn2czv35p"
     },
     "miner": {
       "covid": "deb0b4b9268f76c74d9dbe45bc4d0a2c335799f566ea02d7f75d9a61b8957d35",
-      "txid": "2e4a89f0ee1c2376a0e0e2c0d4aed78907ff72a9c0185f561ab261f1489cfa0a",
+      "txid": "d6191704b00f4e59dbc64393fac949cd5c432385a1c4cfb32cff760af0767824",
       "index": 1,
       "amount": 100000000,
       "state": {
         "median": 256,
-        "votes": 2277,
+        "votes": 2312,
         "blocks": 6000,
-        "anchor_daa": 629521388,
-        "anchor_bs": 617870621,
-        "epoch": 137,
+        "anchor_daa": 629541642,
+        "anchor_bs": 617890875,
+        "epoch": 138,
         "image_id": "3780996e66a9b6eaa109929514b3fe37ec9819fc103c44dd84dfdee84bfc8988",
-        "tally_root": "c6dc1e6a13c52ea8eb2a23c22b50ec0e47fb8920fa6a514c4949924cc58facfb"
+        "tally_root": "c025d22f41273404b1c2d6d26728d2a740a25798e57adbdb4bc68ec704b33897"
       },
-      "address": "kaspatest:prnhsdv5nyfqz80x2spy0efdddlve2fk45cq4t0g6sp7rjnm67umsmkgaywkx"
+      "address": "kaspatest:pzysys8vl8jxmvh4l03ef0ck8wnehgy5jfxwll90qy9fc6022a5lqn2k6sqpv"
     },
     "budget": {
       "covid": "ed6618f08b97d2adfb560727de27035ca66495f095021b6a05849f082a59de11",
-      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
-      "index": 4,
+      "txid": "5df72692cf4cc536d74fb6b2af9ca5f507d2d1a3d3bbed382dc7c54d8b5f063d",
+      "index": 6,
       "amount": 100000000,
       "state": {
         "limit": 5000000,
-        "available": 4999620,
-        "last": 629551023,
+        "available": 4999950,
+        "last": 629554521,
         "vault_debt": 380,
         "vault_ceiling": 33000000
       },
-      "address": "kaspatest:prfqtdh6pw69jyh4qe3xcuzpeqyugr39nd33m0m4u5n0vapha8gauuz3tgdrv"
+      "address": "kaspatest:pzzdhvkjgfg0nrz4mdxjlnaf4g2rcr0rrwlt6z8yuak5sdmrjxtxzxd0czl4q"
     },
     "psm": {
       "covid": "2af0badc857320433d13a204909296af7fec4b6e68c3002c3c3574467a135e0f",
-      "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
+      "txid": "5df72692cf4cc536d74fb6b2af9ca5f507d2d1a3d3bbed382dc7c54d8b5f063d",
       "index": 0,
-      "amount": 200000000,
+      "amount": 2153130000,
       "state": {
         "ceiling": 5000000,
-        "minted": 0,
+        "minted": 50,
         "share_bps": 2500,
         "floor": 100000
       },
-      "address": "kaspatest:ppqptf4psy08tvzsnjxq9kg5hkeq7zj3d4e73zdcyeape2ca7cujzttqxszsz"
+      "address": "kaspatest:pzyeem360n7we2kh55sfaa80hn3s5l4d4yka5r67uuzh76kp5ly77h48xqmg3"
     },
     "vault": {
       "covid": "f9e4224ff0814c82440fca2edb845ab3c2213102838bf36a2c0ba40f1d73dec9",
@@ -84,13 +84,13 @@
     },
     "authority": {
       "covid": "c009a536314da2b3b61d0fb97a9f17559d6cca4a933a62f02d054d8b16a0e250",
-      "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
+      "txid": "5df72692cf4cc536d74fb6b2af9ca5f507d2d1a3d3bbed382dc7c54d8b5f063d",
       "index": 1,
       "amount": 100000000,
       "state": {
-        "amount": 99999620
+        "amount": 99999570
       },
-      "address": "kaspatest:pzlr34c3mfmanrmze9aq4h3vrrc5t2de32ldvrn6c5d5y5r4nzf7sfz7rp7u7"
+      "address": "kaspatest:pp7wm50tjjcglpm8hfmlqdkeqw0cjwfghtfxku2n89wcfgwduzxzuu9w4gh0t"
     },
     "minted": {
       "covid": "c009a536314da2b3b61d0fb97a9f17559d6cca4a933a62f02d054d8b16a0e250",
@@ -104,9 +104,9 @@
     },
     "surplus": {
       "covid": "c76efdcbe2edfe162af0730ece57f739f57888b9e55993a021aaf34271297913",
-      "txid": "d6de40f87286ffabe29929295a116580dc6d61c227301f38b9ed0d6a3702785d",
+      "txid": "5df72692cf4cc536d74fb6b2af9ca5f507d2d1a3d3bbed382dc7c54d8b5f063d",
       "index": 3,
-      "amount": 389577050643,
+      "amount": 389586816293,
       "state": {},
       "address": "kaspatest:pp8h4v37qr6wca57e2cq6muxkkcrg6ac28wp8vvudkkhk59d7l7lw2rnw8fy3"
     }
@@ -116,7 +116,7 @@
     "lastRefreshSigners": [
       0,
       1,
-      2
+      3
     ],
     "rotated": [
       {
@@ -1084,6 +1084,13 @@
       "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
       "time": 1795290404,
       "note": "Anyone may add KAS to the PSM's reserve: the deployer added 1 KAS. If the reserve is ever short, a top-up raises every remaining redemption at once."
+    },
+    {
+      "family": "stage1",
+      "step": "HEARTBEAT",
+      "txid": "d6191704b00f4e59dbc64393fac949cd5c432385a1c4cfb32cff760af0767824",
+      "time": 1795291760,
+      "note": "858 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 0, 1 and 3 printed 256 (CoinGecko) / 256 (CoinPaprika) / 256 (KuCoin), median $0.0256. Miner bound off (participation: votes 2312/6000, anchor age 22744); Stage 1 price."
     }
   ],
   "metering": [
