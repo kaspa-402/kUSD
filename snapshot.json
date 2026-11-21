@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T19:31:55Z",
+  "generatedAt": "2026-11-21T19:47:49Z",
   "network": "testnet-10",
   "stage": "Stage 2",
   "repo": "https://github.com/Kali123411/kUSD",
@@ -7,28 +7,28 @@
   "covenants": {
     "oracle": {
       "covid": "0dac704fe95fa389a429eec46e70a04be2a2685cc4c301c8af8569abb221d242",
-      "txid": "3e0547f13ddbd8977faf22009608a184736d6b8cfaf9f7466da715221f00fd60",
-      "index": 0,
+      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
+      "index": 3,
       "amount": 100000000,
       "state": {
-        "price": 256,
-        "mint": 256,
-        "liq": 256,
-        "epoch": 858,
-        "last": 629542453,
+        "price": 257,
+        "mint": 257,
+        "liq": 257,
+        "epoch": 859,
+        "last": 629545248,
         "status": 0,
         "rate": 200,
         "next_rate": 200,
-        "index": 1000172684,
-        "rem": 286057424,
+        "index": 1000172862,
+        "rem": 61628559,
         "miner_id": "deb0b4b9268f76c74d9dbe45bc4d0a2c335799f566ea02d7f75d9a61b8957d35",
         "bounded": 0
       },
-      "address": "kaspatest:pz0p6f3phlffvaa8grz5jztunk7w6hdqh7gkuvex5la3kt64k346qg6ejz3qg"
+      "address": "kaspatest:pr0xchryjwep82njg0x5zkad7u7m9zvjxky37tv3902qjg8uyg93qxmc5m2dm"
     },
     "miner": {
       "covid": "deb0b4b9268f76c74d9dbe45bc4d0a2c335799f566ea02d7f75d9a61b8957d35",
-      "txid": "3e0547f13ddbd8977faf22009608a184736d6b8cfaf9f7466da715221f00fd60",
+      "txid": "2e4a89f0ee1c2376a0e0e2c0d4aed78907ff72a9c0185f561ab261f1489cfa0a",
       "index": 1,
       "amount": 100000000,
       "state": {
@@ -44,67 +44,69 @@
       "address": "kaspatest:prnhsdv5nyfqz80x2spy0efdddlve2fk45cq4t0g6sp7rjnm67umsmkgaywkx"
     },
     "budget": {
-      "covid": "5ffec54cb5e782aac194180d6567aa472c08cad3254dac3eb3c9481ad9c707b3",
-      "txid": "505e5422693debf21abfa2ceb87a261a6a0e7b2382085c55f554d352c9626971",
-      "index": 6,
+      "covid": "ed6618f08b97d2adfb560727de27035ca66495f095021b6a05849f082a59de11",
+      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
+      "index": 4,
       "amount": 100000000,
       "state": {
         "limit": 5000000,
-        "available": 4999950,
-        "last": 629522624,
+        "available": 4999620,
+        "last": 629551023,
         "vault_debt": 380,
         "vault_ceiling": 33000000
       },
-      "address": "kaspatest:pz49789dvk4xqf95cejhxxzmpuhackut0clju8f9z9lehygtjxptyw248c39k"
+      "address": "kaspatest:prfqtdh6pw69jyh4qe3xcuzpeqyugr39nd33m0m4u5n0vapha8gauuz3tgdrv"
     },
     "psm": {
-      "covid": "3ac8decaf3e4f18937810da7529859d34c0a13d2a3592c1a89ef6105ffe340ed",
-      "txid": "505e5422693debf21abfa2ceb87a261a6a0e7b2382085c55f554d352c9626971",
+      "covid": "2af0badc857320433d13a204909296af7fec4b6e68c3002c3c3574467a135e0f",
+      "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
       "index": 0,
-      "amount": 2053130000,
+      "amount": 200000000,
       "state": {
         "ceiling": 5000000,
-        "minted": 50
+        "minted": 0,
+        "share_bps": 2500,
+        "floor": 100000
       },
-      "address": "kaspatest:prgpsxps6ca0zgfqnpa47h08edkn39gqtv25d4yakgf3v4vd7vn7zgdxnnmaw"
+      "address": "kaspatest:ppqptf4psy08tvzsnjxq9kg5hkeq7zj3d4e73zdcyeape2ca7cujzttqxszsz"
     },
     "vault": {
-      "covid": "c08400c030f03043375972e98be83a038c94cf995b252605c03f7b88f00cf627",
-      "txid": "55950fcdb31e00563ce40cddc28bc074a9b849a659092280e3430c12e3662a9c",
+      "covid": "f9e4224ff0814c82440fca2edb845ab3c2213102838bf36a2c0ba40f1d73dec9",
+      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
       "index": 0,
       "amount": 30100000000,
       "state": {
         "collateral": 30000000000,
         "debt_mc": 380000,
-        "index_at": 1000170471
+        "index_at": 1000172862
       },
-      "address": "kaspatest:pq46ec2v523s6y0hs4m4at22e4g9rwn5h9xuchs756kmjwphml3g5hmzlmrl7"
+      "address": "kaspatest:prj9edfvpa89my3p5yk8wycta3rnln0xx6rvlqenejy4ce5ddr8t6edycln3v"
     },
     "authority": {
-      "covid": "bd49c4afca5a57653efdf69c8b51e729d5f4fbc24727aaf8cf412f6b68760567",
-      "txid": "505e5422693debf21abfa2ceb87a261a6a0e7b2382085c55f554d352c9626971",
+      "covid": "c009a536314da2b3b61d0fb97a9f17559d6cca4a933a62f02d054d8b16a0e250",
+      "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
       "index": 1,
       "amount": 100000000,
       "state": {
-        "amount": 99999570
+        "amount": 99999620
       },
-      "address": "kaspatest:prmfnmrndedpxtjgm9kxmh79p8l4lkdxvh5u95u8mym0067ve027z80w6hen2"
+      "address": "kaspatest:pzlr34c3mfmanrmze9aq4h3vrrc5t2de32ldvrn6c5d5y5r4nzf7sfz7rp7u7"
     },
     "minted": {
-      "covid": "bd49c4afca5a57653efdf69c8b51e729d5f4fbc24727aaf8cf412f6b68760567",
-      "txid": "2c31fa79952a31820e6572a43f9008dae972e475fe3e9828c095cff17e5f098c",
+      "covid": "c009a536314da2b3b61d0fb97a9f17559d6cca4a933a62f02d054d8b16a0e250",
+      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
       "index": 2,
       "amount": 150000000,
       "state": {
-        "amount": 300
+        "amount": 380
       },
-      "address": "kaspatest:pzalg8z0wqga2hcvgaqs4jcle066ysnsa6thazvdp973zn8yn8xqq4t6v38kx"
+      "address": "kaspatest:pptyjlj5r94nzjxncnp4hjv3wezcc60j496v5vsfmjndvxv3cw6ps8f5px8y7"
     },
     "surplus": {
       "covid": "c76efdcbe2edfe162af0730ece57f739f57888b9e55993a021aaf34271297913",
-      "txid": "505e5422693debf21abfa2ceb87a261a6a0e7b2382085c55f554d352c9626971",
+      "txid": "d6de40f87286ffabe29929295a116580dc6d61c227301f38b9ed0d6a3702785d",
       "index": 3,
-      "amount": 389502536993,
+      "amount": 389577050643,
       "state": {},
       "address": "kaspatest:pp8h4v37qr6wca57e2cq6muxkkcrg6ac28wp8vvudkkhk59d7l7lw2rnw8fy3"
     }
@@ -112,9 +114,9 @@
   "operators": {
     "slots": 5,
     "lastRefreshSigners": [
+      0,
       1,
-      3,
-      4
+      2
     ],
     "rotated": [
       {
@@ -994,10 +996,94 @@
     },
     {
       "family": "stage1",
-      "step": "HEARTBEAT",
-      "txid": "3e0547f13ddbd8977faf22009608a184736d6b8cfaf9f7466da715221f00fd60",
-      "time": 1795289513,
-      "note": "852 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 1, 3 and 4 printed 256 (CoinPaprika) / 256 (KuCoin) / 256 (Gate.io), median $0.0256. Miner bound off (participation: votes 2277/6000, anchor age 21065); Stage 1 price."
+      "step": "SWAP_IN",
+      "txid": "d6de40f87286ffabe29929295a116580dc6d61c227301f38b9ed0d6a3702785d",
+      "time": 1795289955,
+      "note": "Retiring the vault-debt-ceiling deploy vault: bought $3.83 of kUSD through its PSM to repay the $3.81 owed."
+    },
+    {
+      "family": "stage1",
+      "step": "REPAY",
+      "txid": "a9c59de111f600d6ac2fe7a2b23154f582e40a0e4805d301c7457f7a5363da33",
+      "time": 1795289984,
+      "note": "Repaid that deploy vault in full and released its 300 KAS."
+    },
+    {
+      "family": "stage1",
+      "step": "CLOSE",
+      "txid": "48f35f56b9a14d650c3065889d91686b09cf28d75f8f414d7f97e1c3304d6562",
+      "time": 1795290012,
+      "note": "Closed the empty deploy vault."
+    },
+    {
+      "family": "stage1",
+      "step": "PSM-GENESIS",
+      "txid": "95f7fe110796d9256f555e9e0c7fb394c127442896b64cbbe8290e35d6cf264d",
+      "time": 1795290045,
+      "note": "Hardened PSM: swap-ins stop at $1,000 plus 25% of vault debt, a short reserve pays every redeemer the same share instead of first come, first served, and anyone can top the reserve up."
+    },
+    {
+      "family": "stage1",
+      "step": "BUDGET-GENESIS",
+      "txid": "14022fb25afb71bddc05e76a9c7015b55cd57e797d90a57922845200915ef745",
+      "time": 1795290069,
+      "note": "New issuance budget for the hardened PSM, vault-debt ceiling $330,000; a repayment can no longer raise the vault-debt count."
+    },
+    {
+      "family": "stage1",
+      "step": "AUTHORITY-GENESIS",
+      "txid": "c6a7087651700e12d78eafaf2e12033f596ddaa665c6787eff183d67184dad49",
+      "time": 1795290092,
+      "note": "New kUSD token authority that knows the hardened PSM."
+    },
+    {
+      "family": "stage1",
+      "step": "WIRE",
+      "txid": "b6acfa8ba9751068ab591438babb01531c20cd15067b051f32e00a36a4479d54",
+      "time": 1795290116,
+      "note": "Hardened PSM wired to the new token authority."
+    },
+    {
+      "family": "stage1",
+      "step": "BUDGET-WIRE",
+      "txid": "22e53b9c050a9f50d7f100eedaff07dc9790cccd73d506b50205bc68247799f3",
+      "time": 1795290141,
+      "note": "New issuance budget wired in."
+    },
+    {
+      "family": "stage1",
+      "step": "VAULT-GENESIS",
+      "txid": "705b9937cb7951cdb59fccc2a13fd574388385b2bd0e17bfb9969fa16e5d0dff",
+      "time": 1795290304,
+      "note": "New deploy vault opened with 300 KAS."
+    },
+    {
+      "family": "stage1",
+      "step": "MINT",
+      "txid": "abd18e60f4aba95f61b32604a2b3ab3c06e4c2fe8bb95310089c06f80369ea38",
+      "time": 1795290328,
+      "note": "Minted $3.80 against the new vault (300 KAS at $0.0257 is 202%)."
+    },
+    {
+      "family": "stage1",
+      "step": "SET_CEILING",
+      "txid": "e4b94d1fa30182f2c722d3aec3f38d2cc24547bc8b24feef695ffbfd57ec94d7",
+      "time": 1795290356,
+      "note": "Governance (2 of 3) set the hardened PSM's ceiling to $50,000 and its fee to 0.50%; the share cap stays $1,000 plus 25% of vault debt."
+    },
+    {
+      "family": "stage1",
+      "step": "PSM_CAP_REFUSED",
+      "txid": null,
+      "time": 1795290356,
+      "note": "A $1,001 PSM buy, refused before signing: \"the PSM ceiling leaves room for 100095 cents\" \u2014 the share cap ($1,000 plus 25% of the $3.80 vault debt). No transaction was sent."
+    },
+    {
+      "family": "stage1",
+      "step": "PSM-TOP-UP",
+      "txid": "9e09b1c2c23c22ccd34fa48c61819b4488f119622afe06380a557ad5d2401e95",
+      "time": 1795290404,
+      "note": "Anyone may add KAS to the PSM's reserve: the deployer added 1 KAS. If the reserve is ever short, a top-up raises every remaining redemption at once."
     }
   ],
   "metering": [
