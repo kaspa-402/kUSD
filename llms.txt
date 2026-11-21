@@ -16,9 +16,10 @@ Today all five oracle operator keys are held by the deployer; independent operat
 - contracts/v2/ag/: kusd.ag, vault.ag, psm.ag, oracle.ag, budget.ag, surplus.ag (Argent → SilverScript). Frozen for the re-scope; a contract change is a separate task.
 - contracts/v2/harness/: Rust harness, 182 tests (cargo test --release --locked), metering table.
 - contracts/v2/deploy/README.md: every TN10 family's covenant ids and transactions.
+- docs/MAINNET-ROADMAP.md: every remaining pre-mainnet item (hard blockers: third-party audit, invariant argument, publishing the code that ships, five independent operators, mainnet governance keys, genesis sizing) and the phased roadmap.
 - docs/agents/README.md: hold kUSD, pay through k402, verify a settlement, read covenant ids, sell a service.
 - docs/pitch/: whitepaper, one-pager, serialized evidence of every cited transaction.
-- This public repository is the 2026-11-14 snapshot (oracle Stage 1); the live TN10 family has since added a stability fee, a 150% liquidation line, a 5 KAS minimum, a rising PSM spread, 1.5 KAS holder boxes and the kusd_pay wallet; see the live page.
+- This public repository is the 2026-11-14 snapshot (oracle Stage 1); the live TN10 family has since added a stability fee, 200%/170% borrow/liquidation lines, a 5 KAS minimum, a rising PSM spread, a miner-median price bound, a vault-debt ceiling, a hardened PSM, a vault factory, 1.5 KAS holder boxes and the kusd_pay wallet; see the live page and docs/MAINNET-ROADMAP.md.
 
 ## How to verify
 - A kUSD box: recompute its P2SH address from the claimed state with the kusd-client and check the outpoint on a node; its covenant id must be the family's authority id (the `asset` of every x402 kUSD requirement).

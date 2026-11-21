@@ -323,15 +323,16 @@ by re-pointing that one pin — the two designs can strengthen each other.
 ## 9. Road to production & the ask
 
 What exists is a complete, live-exercised protocol. What stands between it and
-mainnet is exactly what funding buys, in order:
+mainnet is exactly what funding buys, in order. The detailed list, with a "done when" for each item and the
+phased plan, is [`docs/MAINNET-ROADMAP.md`](../MAINNET-ROADMAP.md).
 
 | Stage | What it closes | Status |
 |---|---|---|
 | **External audit** (2 firms, covenant + economic) | the single biggest gap: nobody but us and our adversarial-review process has attacked this code | `[OWNER: ask amount]` |
-| **Oracle decentralization** | Stage 1 (five-operator signed-print median) **live on TN10**; Stages 2–3 move to a miner-voted price (see below) | design + ecosystem coordination |
+| **Oracle decentralization** | Stage 1 (five-operator signed-print median) and Stage 2 (operators bounded to ±5 % of a proven miner median) **live on TN10**; Stage 3 makes the miner price primary (see below) | Stage 2 needs mainnet miner participation |
 | **Mainnet beta under caps** | tiny governance ceiling, fee switch off, real KAS, capped exposure | after audit |
 | **Keeper ecosystem** | open-source keeper bots (the liquidation split already pays them 10%) | reference bot exists as deploy tooling |
-| **Stability fees** | DAA-based accrual covenant | designed, not built |
+| **Stability fees** | DAA-based accrual covenant | **live on TN10** (2 %/year) |
 | **Full settlement** | pro-rata redemption against vault collateral after a permanent oracle failure (today: an emergency halt) | designed, not built |
 | **Liquidity bootstrap** | PSM reserve seeding, market-maker partnerships | `[OWNER: ask amount]` |
 | **Legal structuring** | jurisdiction, governance entity | explicitly unsolved; funded work |
