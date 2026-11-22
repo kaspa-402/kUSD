@@ -50,6 +50,22 @@ reviews as a regression test.
 | S5 | **Mainnet fee and mass recalibration** | every transaction kind is re-metered against mainnet compute-mass and storage-mass rules |
 | S6 | **Miner-vote bootstrap (Stage 2 on mainnet)** | the vote format is published to pools; a payout to voting miners is funded; the bound is switched on by governance once mainnet participation holds at least half of blocks for 7 days |
 
+### Oracle economics and throughput (contract changes: design before the Phase 0 freeze, so they are audited)
+
+These change the oracle, vault and PSM contracts, so they ride one re-genesis and must land before the code is frozen
+for audit. The first two adapt ideas from Ergo's oracle pool v2.0 (EIP-23) to Kaspa covenants.
+
+| # | Item | Why | Done when |
+|---|---|---|---|
+| O1 | **Pay price operators on chain** | operators earn nothing today and the relayer pays about 29 KAS/day in fees; five independent operators (B4) need a reason to run | the oracle state counts each operator's included prints; a claim entry pays from the surplus treasury; the relayer earns a bonus per print it includes; no reward boxes, so no dust |
+| O2 | **Median of all fresh prints, not a chosen three** | the relayer now picks the tightest three of up to five, so two colluding operators near the top of the 3 % band can be favoured | a refresh takes the median of every fresh print (at least three), paid per print included (O1), with room for more than five operator seats |
+| O3 | **Price receipts: stop every kUSD transaction spending one oracle box** | Kaspa has no data inputs, so each mint, repay, liquidation and PSM swap spends and recreates the single oracle box; simultaneous users collide and one fails, a throughput ceiling at mainnet volume | each refresh also emits read-only price receipts that vaults and the PSM spend independently, with the same freshness and status rules; load-tested on TN10 with concurrent users |
+| O4 | **On-chain payout to voting miners** | the Stage 2 miner payout is designed as an off-chain bot on a treasury wallet | a claim covenant verifies the zero-knowledge proof that a block's coinbase carried an in-range price vote and pays the miner named in that block from protocol fees; no keys, no new issuance, no node or consensus change |
+| O5 | **Propose the coinbase price-vote format as an ecosystem standard** | miners should integrate once for every protocol that reads votes, and nothing about this belongs in consensus | a KCC/KIP draft standardising the vote format (the 13-byte `KVOT` vote in the block template's `extra_data`), discussed with the format's original author and pools |
+
+Out of scope by design: paying miners through the node or consensus. Consensus can't verify an external price, and
+funding votes from issuance would change Kaspa's emission; everything above is covenant-level.
+
 ### Decisions still open
 
 - **Legal structuring**: jurisdiction and a governance entity for a USD stablecoin. Unsolved; funded work.
@@ -62,9 +78,11 @@ reviews as a regression test.
 Each phase starts only when the previous one's exit criteria are met.
 
 ### Phase 0 — Freeze and prepare for audit
+- Build the oracle economics and throughput changes (O1–O4) and re-deploy them on TN10; send the vote-format draft
+  (O5).
 - Freeze the contract set (no feature changes after this point except audit fixes).
 - Write the invariant argument (B2) and the public security register; publish the current code here (B3).
-- Write the audit scope: the six contracts and the factory, the oracle proof path, the transaction-building
+- Write the audit scope: the six contracts and the factory, the receipts and payout claims, the oracle proof path, the transaction-building
   client, and the parameter rationale (stress replay, depth measurement).
 - **Exit:** scope document sent to auditors; this repository matches the frozen code.
 
