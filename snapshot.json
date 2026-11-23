@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T04:19:30Z",
+  "generatedAt": "2026-11-23T04:49:33Z",
   "network": "testnet-10",
   "stage": "Stage 2",
   "repo": "https://github.com/Kali123411/kUSD",
@@ -7,51 +7,51 @@
   "covenants": {
     "oracle": {
       "covid": "a9595462a506950b2985b053fc3a8653575e86d986f9730b1b85c60bbc89d6cc",
-      "txid": "bed46443ac0833350488dcd33411dc78b1fefdfbd0000de466a7a59c362f75a7",
+      "txid": "65e977944099c71591013cadfef1b8bc1afbe45c6a2b0c451cb76c3b186f572a",
       "index": 0,
       "amount": 1000000000,
       "state": {
         "price": 258,
         "mint": 258,
         "liq": 258,
-        "epoch": 60,
-        "last": 630722095,
+        "epoch": 66,
+        "last": 630740914,
         "status": 0,
         "fee": 50,
         "miner_id": "27f8b2dd7c571cae5a122c5bd665e58fc109c8c4c0d656ba083700543dd01d7a",
         "bounded": 0,
         "receipts": 8,
         "earned": [
-          115000000,
-          185000000,
-          190000000,
-          190000000,
-          185000000
+          120000000,
+          205000000,
+          210000000,
+          210000000,
+          205000000
         ],
-        "last_paid": 630722095,
+        "last_paid": 630740914,
         "paid_total": 0,
         "pay_per_print": 5000000,
         "relayer_bonus": 12000000,
         "relayer_per_print": 2000000
       },
-      "address": "kaspatest:pz33q7zjcmkp6zeggek37hhsd8lrd0r4x3ypwwpvlpd3swtejv5e7wqeh8ls0"
+      "address": "kaspatest:pq6fpxnegdhfsz2y4v3jl2ta0u7dnscyawjek93ep39mrcnv3z7egl0lnaadg"
     },
     "miner": {
       "covid": "27f8b2dd7c571cae5a122c5bd665e58fc109c8c4c0d656ba083700543dd01d7a",
-      "txid": "bed46443ac0833350488dcd33411dc78b1fefdfbd0000de466a7a59c362f75a7",
+      "txid": "65e977944099c71591013cadfef1b8bc1afbe45c6a2b0c451cb76c3b186f572a",
       "index": 1,
       "amount": 100000000,
       "state": {
-        "median": 260,
-        "votes": 2206,
+        "median": 259,
+        "votes": 1983,
         "blocks": 6000,
-        "anchor_daa": 630700604,
-        "anchor_bs": 619049226,
-        "epoch": 13,
+        "anchor_daa": 630714258,
+        "anchor_bs": 619062805,
+        "epoch": 14,
         "image_id": "3780996e66a9b6eaa109929514b3fe37ec9819fc103c44dd84dfdee84bfc8988",
-        "tally_root": "95d11573a7cf4d45bd4fe87b0cd3dd2dfb5895db8ba61964cc5f1beee842660b"
+        "tally_root": "d679f43b7ee061cace9687868a5e075fcc731ccdbbe1770b5f634b2926787ae2"
       },
-      "address": "kaspatest:pz48yufgnvdar8p0n3vsc5wp2u9zjltlvwunph29dpa2m78rlkpgy2e5ucswm"
+      "address": "kaspatest:pqeuf7g7rdmp2qlhkap5j5w5ym848xrgdrlcggp9j74dy4vaz8yquzkq8tmq6"
     },
     "budget": {
       "covid": "51ebe9cbb94b19129e45936359621231b3afd8a7e10c81f6ab89c0d0abda2eaf",
@@ -134,10 +134,10 @@
   "operators": {
     "slots": 5,
     "lastRefreshSigners": [
-      0,
       1,
       2,
-      3
+      3,
+      4
     ],
     "rotated": [
       {
@@ -1613,9 +1613,9 @@
     {
       "family": "stage1",
       "step": "HEARTBEAT",
-      "txid": "bed46443ac0833350488dcd33411dc78b1fefdfbd0000de466a7a59c362f75a7",
-      "time": 1795407569,
-      "note": "1110 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 0, 1, 2 and 3 printed 258 / 258 / 258 / 259, median $0.0258. Miner bound off (participation: votes 2206/6000, anchor age 21491); Stage 1 price."
+      "txid": "65e977944099c71591013cadfef1b8bc1afbe45c6a2b0c451cb76c3b186f572a",
+      "time": 1795409372,
+      "note": "1116 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 1, 2, 3 and 4 printed 258 / 258 / 258 / 258, median $0.0258. Miner bound off (participation: votes 1983/6000, anchor age 26656); Stage 1 price."
     }
   ],
   "metering": [
