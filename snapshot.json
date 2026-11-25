@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T05:20:43Z",
+  "generatedAt": "2026-11-25T05:50:34Z",
   "network": "testnet-10",
   "stage": "Stage 2",
   "repo": "https://github.com/Kali123411/kUSD",
@@ -7,38 +7,38 @@
   "covenants": {
     "oracle": {
       "covid": "a9595462a506950b2985b053fc3a8653575e86d986f9730b1b85c60bbc89d6cc",
-      "txid": "42f1a490058f19cc37b92d6c158f06364983f2c76042b78d1d5aa8f7f3b44622",
+      "txid": "ebf71ec10a55f6fbf8f40204fcec3e8c9ff664710f36e62e5c16d6e239dd1ba1",
       "index": 0,
       "amount": 1000000000,
       "state": {
-        "price": 262,
-        "mint": 262,
-        "liq": 262,
-        "epoch": 631,
-        "last": 632482170,
+        "price": 261,
+        "mint": 261,
+        "liq": 261,
+        "epoch": 637,
+        "last": 632500193,
         "status": 0,
         "fee": 50,
         "miner_id": "8b58e79682ecdb34eda35edad8274ac144ac3fb04c17dbee830315ca9d9f0e4b",
         "bounded": 0,
         "receipts": 8,
         "earned": [
-          1575000000,
-          1970000000,
-          2000000000,
-          2000000000,
-          1995000000
+          1580000000,
+          1990000000,
+          2020000000,
+          2020000000,
+          2015000000
         ],
-        "last_paid": 632479674,
+        "last_paid": 632497600,
         "paid_total": 0,
         "pay_per_print": 5000000,
         "relayer_bonus": 12000000,
         "relayer_per_print": 2000000
       },
-      "address": "kaspatest:pq9m204c9j94q2nenc06aghttt3x3cljzrtrj4wfpdwxzg30jv0esmkcdv6fs"
+      "address": "kaspatest:pzvw7hs5yapumed7ph9gvu5ka555ru9j8kaw6j4nta46vskz708726rrxseak"
     },
     "miner": {
       "covid": "8b58e79682ecdb34eda35edad8274ac144ac3fb04c17dbee830315ca9d9f0e4b",
-      "txid": "42f1a490058f19cc37b92d6c158f06364983f2c76042b78d1d5aa8f7f3b44622",
+      "txid": "ebf71ec10a55f6fbf8f40204fcec3e8c9ff664710f36e62e5c16d6e239dd1ba1",
       "index": 1,
       "amount": 100000000,
       "state": {
@@ -134,9 +134,10 @@
   "operators": {
     "slots": 5,
     "lastRefreshSigners": [
-      3,
+      0,
       1,
       2,
+      3,
       4
     ],
     "rotated": [
@@ -1613,9 +1614,9 @@
     {
       "family": "stage1",
       "step": "HEARTBEAT",
-      "txid": "42f1a490058f19cc37b92d6c158f06364983f2c76042b78d1d5aa8f7f3b44622",
-      "time": 1795584031,
-      "note": "1680 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 3, 1, 2 and 4 printed 261 / 262 / 262 / 262, median $0.0262. Miner bound off (participation: votes 0/0, anchor age -9223372036222293637); Stage 1 price."
+      "txid": "ebf71ec10a55f6fbf8f40204fcec3e8c9ff664710f36e62e5c16d6e239dd1ba1",
+      "time": 1795585832,
+      "note": "1686 routine refreshes since 2026-11-18 16:15 UTC keep the feed from going stale. Latest: operators 0, 1, 2, 3 and 4 printed 261 / 261 / 261 / 261 / 261, median $0.0261. Miner bound off (participation: votes 0/0, anchor age -9223372036222275614); Stage 1 price."
     }
   ],
   "metering": [
